@@ -1,0 +1,32 @@
+body {
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("bg3.png");
+  background-repeat:initial;
+  min-width:500px;
+}
+
+.navbar.navbar-default {
+  background-color:transparent;
+}
+
+.container-fluid {
+  background-color:transparent;
+}
+
+.navbar-header {
+  background-color:transparent;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  background-color:transparent;
+}
+
+.navbar {
+  border:0px;
+}
+
+.col-md-6 {
+  border:2px solid black;
+  border-radius:15px;
+  float:left;
+}
+
